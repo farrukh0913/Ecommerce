@@ -1,19 +1,15 @@
 <template>
-  <div id="app">
-    <Nav class="mb-6" />
-    <HelloWorld msg="Welcome to Your Vue.js App" class="text-center"/>
+  <div >
+    <ComfortyHome  />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Nav from './components/Nav.vue'
-
+import ComfortyHome from './components/ComfortyHome.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Nav
+    ComfortyHome,
   }
 }
 </script>
